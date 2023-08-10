@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
- *main - entry poit
- *return: always 0 (success)
+ *main - A program that prints a line with pust function
+ *Return: 0 (Success)
  */
 int main(void)
 {

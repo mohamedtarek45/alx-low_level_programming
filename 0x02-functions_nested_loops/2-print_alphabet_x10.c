@@ -1,20 +1,19 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - prints the string "Holberton" from a character array.
- * Return: void..
- */
+  * print_alphabet_x10 - repeats the print_alphabet 10 times.
+  * Return: Nothing.
+  */
 void print_alphabet_x10(void)
 {
-	char x;
-	int z;
+	int i;
+	char c;
 
-	for (z =  1; z <= 10; z++)
+	for (i = 0; i < 10; ++i)
 	{
-	for (x = 'a'; x <= 'z' ; x++)
+		for (c = 'a'; c <= 'z'; c++)
 		{
-				_putchar(x);
+			_putchar(c);
 		}
 		_putchar('\n');
 	}
 }
-
